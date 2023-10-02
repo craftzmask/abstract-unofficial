@@ -1,0 +1,35 @@
+.item {
+  display: flex;
+  column-gap: 25px;
+  padding-right: 50px;
+  flex: 50%;
+}
+
+.itemImg {
+  width: 96px;
+  height: 96px;
+}
+
+.itemContent {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  color: #191a1b;
+  font-size: 24px;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.learnMore {
+  font-size: 20px;
+  color: #4C5FD5;
+  text-decoration: none;
+}
+
+.i {
+  vertical-align: middle;
+  font-size: 16px;
+  margin-left: 5px;
+}
